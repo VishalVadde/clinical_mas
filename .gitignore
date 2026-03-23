@@ -1,0 +1,22 @@
+# Data — restricted MIMIC-IV dataset (requires PhysioNet credentialed access)
+data/
+*.csv
+
+# Model artifacts — too large for GitHub (100 MB limit)
+models/
+*.pkl
+*.index
+*.bin
+*.pt
+*.safetensors
+
+# Results
+results/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Colab system files
+.config/
