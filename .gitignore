@@ -1,4 +1,4 @@
-# Data — restricted MIMIC-IV (requires PhysioNet credentialed access)
+# Data — restricted MIMIC-IV (PhysioNet credentialed access required)
 data/
 *.csv
 
