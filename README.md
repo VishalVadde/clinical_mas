@@ -53,7 +53,6 @@ Raw Clinical Note
 | RAG | Mean Top-1 Similarity | 0.666 |
 | RAG | Avg Query Latency | 19.6 ms |
 | Solver | BERTScore F1 | 0.792 |
-| Solver | Training Loss | 0.5843 |
 | Sanitizer | PHI Detection Rate | 100% |
 
 ---
@@ -242,19 +241,7 @@ if result["safe"]:
 
 ---
 
-## Citation
 
-If you use this work, please cite:
-
-```bibtex
-@mastersthesis{vadde2026clinical,
-  title     = {An AI-Integrated Multi-Stage System for Secure Clinical Note Summarization},
-  author    = {Vadde, Vishal Reddy},
-  year      = {2026},
-  school    = {California State University, Sacramento},
-  type      = {MS Thesis}
-}
-```
 
 ### Key References
 
