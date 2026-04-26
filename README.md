@@ -77,7 +77,6 @@ clinical_mas/
 │   ├── 07_performance_evaluation.ipynb     # Latency & performance benchmarks
 │   └── 09_model_comparison.ipynb           # Baseline model comparison
 │
-├── requirements.txt
 └── README.md
 ```
 
@@ -105,11 +104,6 @@ cd clinical_mas
 
 ### 2. Install Dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-Or install the core packages manually:
 
 ```bash
 pip install torch transformers peft bitsandbytes \
